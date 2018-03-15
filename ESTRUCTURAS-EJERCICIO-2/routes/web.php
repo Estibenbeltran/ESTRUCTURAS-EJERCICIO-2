@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('master');
 });
+Route::get('/resultados', function () {
+    return view('resultados');
+});
+Route::post('busqueda','Buscador@buscar');
