@@ -6,7 +6,7 @@
 			<div class="container">
 			  	<center>
 			  	<blockquote>
-			    <div class="col"><h1>Busqueda de personas</h1>
+			    <div class="col"><h1>Ejercicio de Busqueda</h1>
 			    </blockquote>
 				</center>
 				<center>

@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+Route::get('/master', function () {
     return view('master');
 });
-Route::get('/resultados', function () {
-    return view('resultados');
+Route::get('/', function () {
+    return view('contenido');
 });
-Route::post('busqueda','Buscador@buscar');
+Route::get('/contenido2', function () {
+    return view('contenido2');
+});
+Route::post('Informacion','ControladorEjercicio@MatrizEjercicio');
